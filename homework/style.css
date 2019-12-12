@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(218, 214, 221);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#books {
+  border-top: solid rgb(103, 101, 104) 1px;
+  border-radius: 2px;
+  background-color: white;
+  margin: 50px;
+}
+
+.book-header {
+  padding-left: 50px;
+}
+
+li h1 {
+  font-size: 20px;
+}
+
+li {
+  width: 15%;
+  margin: 20px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  display: inline-block;
+}
+
+strong {
+  font-size: 12px;
+}
+
+img:hover {
+  box-shadow: 10px 10px 5px #888888;
+  transform: scale(1.05);
+  transition: all 0.1ms;
+  margin: auto;
+}
